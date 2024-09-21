@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './Testimonials.css';
+import './testimonials.css';
 
 const TestimonialScroll = ({ testimonials, interval = 3000 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
