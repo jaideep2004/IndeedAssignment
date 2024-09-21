@@ -1,0 +1,90 @@
+.testimonialWrapper{
+    /* border: 1px solid black; */
+    padding: 30px;
+    /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+
+    h1{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+        font-size: 40px;
+        text-align: center;
+    }
+}
+
+.testimonials-container {
+    /* border: 1px solid black; */
+
+    border-radius: 20px;
+    width: 100%;
+    max-width: 800px; /* Set the width of the testimonial section */
+    height: 250px; /* Fixed height */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 40px 70px;
+    box-shadow:  2px 2px 2px lightgray;
+  }
+  
+  .testimonials-wrapper {
+    
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+    transition: transform 0.5s ease-in-out;
+    width: 100%; /* Ensure wrapper takes full width for proper centering */
+  }
+  
+  .testimonial-card {
+    border: 1px solid #25d366;
+    min-width: 100%; /* Make each card take full width */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-height: 200px;
+    background-origin: content-box;
+    box-shadow: 2px 2px 3px #6EC1E4;
+    
+  }
+  
+  .testimonial-text {
+    font-size: 1.2rem;
+    color: #333;
+    text-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .testimonial-author {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #555;
+  }
+
+  .testName{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    img{
+        width: 100px;
+        border-radius: 100%;
+        box-shadow: -2px 2px 2px #25d366;
+        
+    }
+  }

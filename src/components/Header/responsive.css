@@ -1,0 +1,49 @@
+  /* Responsive Design */
+  @media (max-width: 768px) {
+
+    body{
+        overflow-x: hidden;
+        user-select: none;
+    }
+    .navlinkContain {
+      display: none;
+    }
+  
+    .hamburger-menu {
+      display: block;
+      
+    }
+
+.logo{
+    scale: 0.8;
+    margin-left: -30px;
+}
+
+/* hero */
+.firstColumn{
+    scale: 4;
+}
+.secondColumn{
+margin-top: -140px;
+    scale: 0.9;
+}
+
+/* timeline */
+.timelineWrapper{
+   scale: 1.01;
+    img{
+        margin-bottom: 280px;
+    }
+}
+
+/* testimonials */
+.testimonials-container{
+    scale: 0.9;
+}
+
+.questionWrapper{
+    scale: 1.1;
+}
+
+  }
+  

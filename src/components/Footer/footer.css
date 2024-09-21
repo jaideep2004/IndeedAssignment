@@ -1,0 +1,50 @@
+/* Footer Styling */
+.footer {
+    background-color: gray;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    text-align: left;
+  }
+  
+  .footer-column {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .footer h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .footer p, .footer li {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-column:last-child {
+    margin-right: 0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer-column {
+      margin-bottom: 20px;
+    }
+  }
+  
